@@ -1,0 +1,23 @@
+OrpheusFix:
+  ros__parameters:
+    camera_calibration:
+      image_width: 640
+      image_height: 480
+      camera_name: narrow_stereo
+      camera_matrix:
+        rows: 3
+        cols: 3
+        data: [605.3881, 0., 328.79021, 0., 603.00588, 248.93252, 0., 0., 1.]
+      distortion_model: plumb_bob
+      distortion_coefficients:
+        rows: 1
+        cols: 5
+        data: [0.104739, -0.155903, 0.005916, 0.003733, 0.000000]
+      rectification_matrix:
+        rows: 3
+        cols: 3
+        data: [1., 0., 0., 0., 1., 0., 0., 0., 1.]
+      projection_matrix:
+        rows: 3
+        cols: 4
+        data: [617.11511, 0., 330.46094, 0., 0., 614.2323, 250.81306, 0., 0. , 0., 1., 0.]
